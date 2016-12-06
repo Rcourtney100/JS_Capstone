@@ -21,3 +21,4 @@
 // Hints are given to direct the user what the word is related to
 // HTML/CSS is properly formatted
 
+var Alphabet
