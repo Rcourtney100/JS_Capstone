@@ -20,9 +20,20 @@
 // User can play several rounds of new words
 // Hints are given to direct the user what the word is related to
 // HTML/CSS is properly formatted 
+$(document).ready(function(){
 
-var wordList["computer","newspaper", "age", "pigskin","television","cornucopia","rudolph","javascript","baseball"];
+	var questionBank = new Array;
+	var wordArray= new Array;
+	var previousGuesses= new Array;
+	var currentWord;
+	var currentHint;
+	var livesLeft;
 
+$.getJSON('answers.json', function(data){
+	for (i=0 )
+})
+
+});
 
 
 

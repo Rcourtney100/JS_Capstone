@@ -23,4 +23,8 @@
   color: green;
   text-decoration: underline; }
 
+#play {
+  border-radius: 10px;
+  padding: 10px; }
+
 /*# sourceMappingURL=styles.css.map */
