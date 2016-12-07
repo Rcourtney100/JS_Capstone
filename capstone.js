@@ -22,16 +22,34 @@
 // HTML/CSS is properly formatted 
 $(document).ready(function(){
 
-	var questionBank = new Array;
-	var wordArray= new Array;
-	var previousGuesses= new Array;
-	var currentWord;
-	var currentHint;
-	var livesLeft;
+var word = {
+	secretWord: "",
+	allLetters:[],
+	correctLetters:[],
+	wrongLetters: [],
+	revealSecretWord: "",
+	hintLetter:"",
+	wordList :["newspaper","pigskin","baseball","seinfeld", "television", "soccer","rudolph", "terminator","broccoli","Santa"]
+}
 
-$.getJSON('answers.json', function(data){
-	for (i=0 )
-})
+ var getSecretWord = function(){
+	this.revealSecretWord = "";
+	this.secretWord = _.shuffle(this.wordList)[0];
+	for (var i = 0; i < this.secretWord.length; i++){
+		this.revealSecretWord += ("_");
+}
+	document.getElementById("answer").innerHTML=word.revealSecretWord;
+
+},
+
+// $.getJSON('answers.json', function(data){
+// 	for (i=0; i<data.answerList.length; i++){
+// 		questionBank[i]= new Array;
+// 		questionBank[i][0]= data.answerList[i].word;
+// 		questionBank[i][1]= data.answerList[i].hint;
+// 	}
+// 	alert(questionBank);
+// }) //getJSON
 
 });
 

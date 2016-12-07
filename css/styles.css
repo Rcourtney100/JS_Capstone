@@ -12,19 +12,30 @@
 #alphabet a {
   color: red;
   background: blue;
-  border-radius: 5x;
-  padding: 5px; }
+  border-radius: 5px;
+  padding: 10px; }
 
 #alphabet a:hover {
   color: orange;
   background: green; }
 
 #alphabet a .used {
-  color: green;
+  color: orange;
+  background: green;
   text-decoration: underline; }
 
-#play {
+#playBtn {
   border-radius: 10px;
-  padding: 10px; }
+  padding: 10px;
+  display: inline;
+  margin: 10px;
+  text: 10px; }
+
+#hintBtn {
+  border-radius: 10px;
+  padding: 10px;
+  display: inline;
+  margin: 10px;
+  text: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
