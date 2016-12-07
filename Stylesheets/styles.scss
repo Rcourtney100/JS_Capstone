@@ -9,46 +9,22 @@
 
 }
 
-
-#main-title {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	font-size: 80px ;
-}
-
-#instructions {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	font-size: 40px ;
-}
- 
- p{
- 	text-align: center;
- 	font-family: 'Montserrat', sans-serif; 
- 	font-size: 20px;
- }
-
-body {
-	background-color: 	#708090;
-}
-
-.btnHolder {
-	text-align: center;
-	margin: 0 auto;
-	font-size: 20px;
-}
-
-button {
-	width: 30px;
-	height: 30px;
-}
-
-.hintBtn {
+#header {
 	text-align: center;
 }
+#alphabet a{
+	color: red;
+	background: blue;
+	border-radius: 5x;
+	padding: 5px
+}
 
-#hint {
-	width: 50px;
-	height: 30px;
-	padding: 10px;
+#alphabet a:hover{
+	color: orange;
+	background: green;
+}
+
+#alphabet a .used{
+	color: green;
+	text-decoration: underline;
 }
